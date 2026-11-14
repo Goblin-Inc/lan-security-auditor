@@ -1,13 +1,15 @@
 # LAN Security Auditor
 
-Многопоточный инструмент на **Python** для сканирования локальной сети, обнаружения активных узлов, анализа открытых портов и аудита безопасности сетевого оборудования.
+> 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
-## ✨ Возможности
-- 🌐 **Многопоточное ICMP/TCP-сканирование** — быстрый поиск живых хостов в подсети (`ThreadPoolExecutor`).
-- 🔎 **Определение служб и портов** — проверка стандартных сервисов (HTTP/HTTPS, SSH, Telnet, FTP, SMB, SNMP, БД).
-- 🛡️ **Аудит веб-интерфейсов и роутеров** — проверка на стандартные учётные данные и уязвимые конфигурации в локальной сети.
+A multi-threaded **Python** network scanner for discovering active hosts on a local network, analyzing open ports, and auditing network device security.
 
-## 🚀 Запуск
+## ✨ Features
+- 🌐 **Multi-Threaded ICMP/TCP Discovery** — rapidly identifies live hosts across a subnet (`ThreadPoolExecutor`).
+- 🔎 **Service & Port Enumeration** — checks common services (HTTP/HTTPS, SSH, Telnet, FTP, SMB, SNMP, databases).
+- 🛡️ **Web Admin & Router Auditing** — tests for default credentials and common misconfigurations on local network equipment.
+
+## 🚀 Usage
 
 ```bash
 pip install requests
