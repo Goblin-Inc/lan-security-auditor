@@ -2,6 +2,8 @@
 
 > 🌐 **Language:** **English** | [Русский (README_Ru.md)](README_Ru.md)
 
+«for authorized / educational use only»
+
 A multi-threaded **Python** network scanner for discovering active hosts on a local network, analyzing open ports, and auditing network device security.
 
 ## ✨ Features
