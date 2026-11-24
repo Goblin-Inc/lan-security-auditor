@@ -15,3 +15,6 @@ A multi-threaded **Python** network scanner for discovering active hosts on a lo
 pip install requests
 python3 lan_auditor.py
 ```
+
+## 📄 License
+MIT © [Goblin-Inc](https://github.com/Goblin-Inc)
